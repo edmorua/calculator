@@ -713,7 +713,7 @@ buttons.forEach(btn=>{
       text.value += " ^ 2";
     }
     if(btn.className === "sqrt"){
-      text.value += "√";
+      text.value += "^(1/2)";
     }
     if(btn.className === "power3"){
       text.value += " ^3";
